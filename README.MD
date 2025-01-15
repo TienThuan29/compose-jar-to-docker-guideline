@@ -11,7 +11,7 @@ Goto maven apache home:
 4. Click "New" under "User variables" and add a variable named `Maven_Home` with the value `C:\apache-maven-3.5.0`.
 5. Find the `Path` variable in the "System variables" section, select it, and click "Edit".
 6. Add `%Maven_Home%\bin` to the `Path` variable.
-7. Open `cmd` and run `mvn -version` to verify the installation.
+7. Open `cmd` and run `mvn -v` to verify the installation.
 
 ## Step 3: Check maven environment
 1. Open cmd.
